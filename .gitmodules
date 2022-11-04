@@ -1,0 +1,3 @@
+[submodule "repo/skin.copacetic"]
+	path = repo/skin.copacetic
+	url = https://github.com/realcopacetic/skin.copacetic.git
