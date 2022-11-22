@@ -106,3 +106,13 @@ And upload the contents of this repository to your host. It is **very important*
 After doing so, your file manager source will be:
 
 `https://YOUR_HOST_URL_HERE/`
+
+### Pushing an update
+
+1. Update the addon and bump the addon version number
+2. git submodule update --remote
+3. python3 _repo_generator.py
+4. git diff / ls / git status to check
+5. git add .
+6. git commit -m "commit comment"
+7. git push origin
