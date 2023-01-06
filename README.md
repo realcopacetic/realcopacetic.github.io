@@ -108,7 +108,7 @@ After doing so, your file manager source will be:
 `https://YOUR_HOST_URL_HERE/`
 
 ### Pushing an update
-
+0. To add a new addon, open terminal in repo folder: git submodule add https://github.com/realcopacetic/xyz
 1. Update the addon and bump the addon version number
 2. git submodule update --remote
 3. python3 _repo_generator.py
