@@ -17,7 +17,7 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="script.copacetic.helper" name="Copacetic Helper" version="0.9.82" provider-name="realcopacetic">
+</addon><addon id="script.copacetic.helper" name="Copacetic Helper" version="0.9.83" provider-name="realcopacetic">
   <requires>
     <import addon="xbmc.python" version="3.0.1" />
   </requires>
@@ -30,7 +30,7 @@
   <extension point="xbmc.service" library="service.py" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Copacetic Helper</summary>
-    <description lang="en">xxx</description>
+    <description lang="en">Helper script for the skin Copacetic.</description>
     <language>en</language>
     <platform>all</platform>
     <license />
@@ -42,10 +42,10 @@
       <fanart>resources/fanart.jpg</fanart>
     </assets>
   </extension>
-</addon><addon id="skin.copacetic" version="0.9.82" name="Copacetic" provider-name="realcopacetic">
+</addon><addon id="skin.copacetic" version="0.9.83" name="Copacetic" provider-name="realcopacetic">
 	<requires>
 		<import addon="xbmc.gui" version="5.16.0" />
-		<import addon="script.copacetic.helper" version="0.9.82" />
+		<import addon="script.copacetic.helper" version="0.9.83" />
 		<import addon="script.skinshortcuts" version="1.1.5" />
 	</requires>
 	<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="0.8" debugging="false">
