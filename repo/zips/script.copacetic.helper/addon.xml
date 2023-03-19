@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<addon id="script.copacetic.helper" name="Copacetic Helper" version="0.9.102" provider-name="realcopacetic">
+<addon id="script.copacetic.helper" name="Copacetic Helper" version="0.9.103" provider-name="realcopacetic">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
     <import addon="script.module.pil" version="5.1.0" />
@@ -16,7 +16,7 @@
     <description lang="en">Helper script for the skin Copacetic.</description>
     <language>en</language>
     <platform>all</platform>
-    <license></license>
+    <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
     <email></email>
     <forum></forum>
     <source></source>
