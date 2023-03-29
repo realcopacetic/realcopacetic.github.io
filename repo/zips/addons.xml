@@ -61,7 +61,7 @@
       <fanart>resources/fanart.jpg</fanart>
     </assets>
   </extension>
-</addon><addon id="skin.copacetic" version="0.9.112" name="Copacetic" provider-name="realcopacetic">
+</addon><addon id="skin.copacetic" version="0.9.113" name="Copacetic" provider-name="realcopacetic">
 	<requires>
 		<import addon="xbmc.gui" version="5.16.0" />
 		<import addon="script.copacetic.helper" version="0.9.103" />
