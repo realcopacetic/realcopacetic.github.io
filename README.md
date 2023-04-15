@@ -118,3 +118,14 @@ After doing so, your file manager source will be:
 5. git add .
 6. git commit -m "commit comment"
 7. git push origin
+
+### Useful git commands
+1. git submodule update --init --recursive --remote
+** change the branch in .gitmodules then run this to update the branches used for submodules
+Then do normal submodule update
+
+2. git checkout --orphan new_branch_name
+** create a new branch without commit history (then do normal add ., commit, push origin to new repo name)
+
+3. git pull origin master --allow-unrelated-histories
+After doing 1, you need to do this to allow a pull request to be merged back to master, will need to manually resolve conflicts
