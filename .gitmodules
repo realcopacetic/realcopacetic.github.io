@@ -1,0 +1,9 @@
+[submodule "repo/skin.copacetic"]
+	path = repo/skin.copacetic
+	url = https://github.com/realcopacetic/skin.copacetic
+[submodule "repo/script.copacetic.helper"]
+	path = repo/script.copacetic.helper
+	url = https://github.com/realcopacetic/script.copacetic.helper
+[submodule "repo/resource.fonts.copacetic"]
+	path = repo/resource.fonts.copacetic
+	url = https://github.com/realcopacetic/resource.fonts.copacetic
