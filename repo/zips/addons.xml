@@ -17,7 +17,7 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="resource.fonts.copacetic" name="Copacetic Extra Fonts" version="0.0.2" provider-name="realcopacetic">
+</addon><addon id="resource.fonts.copacetic" name="Copacetic Extra Fonts" version="1.0.0" provider-name="realcopacetic">
     <requires>
         <import addon="kodi.resource" version="1.0.0" />
     </requires>
@@ -35,7 +35,7 @@
             <icon>resources/icon.png</icon>
         </assets>
     </extension>
-</addon><addon id="script.copacetic.helper" name="Copacetic Helper" version="0.9.106" provider-name="realcopacetic">
+</addon><addon id="script.copacetic.helper" name="Copacetic Helper" version="1.0.0" provider-name="realcopacetic">
   <requires>
     <import addon="xbmc.python" version="3.0.1" />
     <import addon="script.module.pil" version="5.1.0" />
@@ -61,11 +61,11 @@
       <fanart>resources/fanart.jpg</fanart>
     </assets>
   </extension>
-</addon><addon id="skin.copacetic" version="0.9.117" name="Copacetic" provider-name="realcopacetic">
+</addon><addon id="skin.copacetic" version="1.0.0" name="Copacetic" provider-name="realcopacetic">
 	<requires>
 		<import addon="xbmc.gui" version="5.16.0" />
-		<import addon="script.copacetic.helper" version="0.9.106" />
-		<import addon="resource.fonts.copacetic" version="0.0.2" />
+		<import addon="script.copacetic.helper" version="1.0.0" />
+		<import addon="resource.fonts.copacetic" version="1.0.0" />
 		<import addon="script.skinshortcuts" version="1.1.5" />
 		<import addon="visualization.waveform" version="20.2.1" />
 	</requires>
