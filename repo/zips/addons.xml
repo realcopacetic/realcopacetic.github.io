@@ -17,7 +17,7 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="resource.fonts.copacetic" name="Copacetic Extra Fonts" version="1.0.1" provider-name="realcopacetic">
+</addon><addon id="resource.fonts.copacetic" name="Copacetic Extra Fonts" version="1.0.2" provider-name="realcopacetic">
     <requires>
         <import addon="kodi.resource" version="1.0.0" />
     </requires>
@@ -26,7 +26,7 @@
     
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <license>SIL OPEN FONT LICENSE Version 1.1</license>
+        <license>OFL-1.1</license>
         <assets>
             <icon>resources/icon.png</icon>
             <fanart>resources/fanart.jpg</fanart>
@@ -34,7 +34,7 @@
         <summary lang="en_GB">Combined Inter and Noto Sans CJK fonts</summary>
         <description lang="en_GB">Additional charactersets for use with the skin Copacetic including CJK.</description>
     </extension>
-</addon><addon id="script.copacetic.helper" name="Copacetic Helper" version="1.0.2" provider-name="realcopacetic">
+</addon><addon id="script.copacetic.helper" name="Copacetic Helper" version="1.0.3" provider-name="realcopacetic">
   <requires>
     <import addon="xbmc.python" version="3.0.1" />
     <import addon="script.module.pil" version="5.1.0" />
@@ -48,13 +48,13 @@
   <extension point="xbmc.service" library="service.py" />
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+    <license>GPL-3.0-or-later</license>
     <assets>
       <icon>resources/icon.png</icon>
       <fanart>resources/fanart.jpg</fanart>
     </assets>
-    <summary lang="en">Extend the power of Copacetic</summary>
-    <description lang="en">Helper script for the skin Copacetic.</description>
+    <summary lang="en_GB">Extend the power of Copacetic</summary>
+    <description lang="en_GB">Helper script for the skin Copacetic.</description>
   </extension>
 </addon><addon id="skin.copacetic" version="1.0.6" name="Copacetic" provider-name="realcopacetic">
 	<requires>

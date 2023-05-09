@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="resource.fonts.copacetic" name="Copacetic Extra Fonts" version="1.0.1" provider-name="realcopacetic">
+<addon id="resource.fonts.copacetic" name="Copacetic Extra Fonts" version="1.0.2" provider-name="realcopacetic">
     <requires>
         <import addon="kodi.resource" version="1.0.0" />
     </requires>
@@ -8,7 +8,7 @@
     
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <license>SIL OPEN FONT LICENSE Version 1.1</license>
+        <license>OFL-1.1</license>
         <assets>
             <icon>resources/icon.png</icon>
             <fanart>resources/fanart.jpg</fanart>
