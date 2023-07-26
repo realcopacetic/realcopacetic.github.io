@@ -119,6 +119,9 @@ After doing so, your file manager source will be:
 6. git commit -m "commit comment"
 7. git push origin
 
+### Troubleshooting
+If you clone repo with submodules on a new machine and get an error when updating submodules, check .gitmodules. script.copacetic.helper may need branch = main for it to know there is not a master branch.
+
 ### Useful git commands
 1. git submodule update --init --recursive --remote
 ** change the branch in .gitmodules then run this to update the branches used for submodules
