@@ -17,7 +17,7 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="resource.fonts.copacetic" name="Copacetic Extra Fonts" version="1.0.3" provider-name="realcopacetic">
+</addon><addon id="resource.fonts.copacetic" name="Copacetic Extra Fonts" version="1.0.4" provider-name="realcopacetic">
     <requires>
         <import addon="kodi.resource" version="1.0.0" />
     </requires>
@@ -32,18 +32,18 @@
         <summary lang="en_GB">Combined Inter and Noto Sans CJK fonts</summary>
         <description lang="en_GB">Additional charactersets for use with the skin Copacetic including CJK.</description>
     </extension>
-</addon><addon id="script.copacetic.helper" name="Copacetic Helper" version="1.0.8" provider-name="realcopacetic">
+</addon><addon id="script.copacetic.helper" name="Copacetic Helper" version="1.0.9" provider-name="realcopacetic">
   <requires>
     <import addon="xbmc.python" version="3.0.1" />
     <import addon="script.module.pil" version="5.1.0" />
   </requires>
+  <extension point="xbmc.service" library="service.py" />
   <extension point="xbmc.python.pluginsource" library="plugin.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.python.script" library="script.py">
     <provides>executable</provides>
   </extension>
-  <extension point="xbmc.service" library="service.py" />
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <license>GPL-3.0-or-later</license>
@@ -54,14 +54,15 @@
     <summary lang="en_GB">Extend the power of Copacetic</summary>
     <description lang="en_GB">Helper script for the skin Copacetic.</description>
   </extension>
-</addon><addon id="skin.copacetic" version="1.1.16" name="Copacetic" provider-name="realcopacetic">
+</addon><addon id="skin.copacetic" version="1.1.18" name="Copacetic" provider-name="realcopacetic">
 	<requires>
 		<import addon="xbmc.gui" version="5.16.0" />
-		<import addon="script.copacetic.helper" version="1.0.6" />
-		<import addon="resource.fonts.copacetic" version="1.0.2" />
+		<import addon="script.copacetic.helper" version="1.0.9" />
+		<import addon="resource.fonts.copacetic" version="1.0.4" />
 		<import addon="script.skinshortcuts" version="1.1.5" />
+		<import addon="service.upnext" version="1.1.9+MATRIX.1" />
 	</requires>
-	<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="0.8" debugging="false">
+	<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="0.8" debugging="true">
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -87,10 +88,13 @@
 		<summary lang="en_GB">A real good time with your media.</summary>
 		<summary lang="es_ES">Un buen rato con tu contenido multimedia.</summary>
 		<summary lang="fi_FI">Nauti ajasta mediasi kanssa.</summary>
+		<summary lang="fr_FR">Un vrai bon moment avec vos médias.</summary>
 		<summary lang="it_IT">Un vero divertimento con i tuoi media.</summary>
 		<summary lang="pl_PL">To naprawdę dobry czas z twoimi mediami.</summary>
+		<summary lang="pt_PT">Um bom tempo com a tua media.</summary>
 		<description lang="en_GB">Clear away the clutter with a minimal skin designed to bring maximum impact to the artwork that you curate for your favourite movies, shows and music. Copacetic is a labour of love more than five years in the making. I hope you enjoy it.</description>
-		<description lang="es_ES">Elimina el desorden con un skin minimalista diseñado para dar el máximo impacto a las ilustraciones que creas para tus películas, series y música favoritas. Copacetic es un trabajo de amor de más de cinco años. Espero que lo disfrutes.</description>
+		<description lang="es_ES">Despeja el desorden con un skin minimalista diseñado para dar el máximo impacto a las ilustraciones que seleccionas para tus películas, series y música favoritas. Copacetic es un trabajo realizado con amor durante más de cinco años. Espero que lo disfrutes.</description>
+		<description lang="fr_FR">Débarrassez-vous du superflu avec un habillage minimal conçu pour donner un impact maximal aux œuvres d'art que sont vos films, émissions et musiques préférés. Copacetic est le fruit d'un travail passionné de plus de cinq ans. J'espère que vous l'apprécierez.</description>
 		<description lang="it_IT">Elimina il disordine con una skin minimale progettata per dare il massimo impatto alle artwork per i tuoi film, serie e musica preferiti. Copacetic è un lavoro d'amore che dura da più di cinque anni. Spero che vi piaccia.</description>
 	</extension>
 </addon></addons>
