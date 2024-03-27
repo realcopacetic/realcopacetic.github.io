@@ -16,6 +16,7 @@ SCRIPT_VERSION = 5
 KODI_VERSIONS = ["matrix", "nexus", "omega", "repo"]
 IGNORE = [
     ".git",
+    ".gitattributes",
     ".github",
     ".gitignore",
     ".DS_Store",
