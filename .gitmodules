@@ -1,10 +1,24 @@
-[submodule "repo/skin.copacetic"]
-	path = repo/skin.copacetic
+[submodule "nexus/skin.copacetic"]
+	path = nexus/skin.copacetic
 	url = https://github.com/realcopacetic/skin.copacetic
-[submodule "repo/script.copacetic.helper"]
-	path = repo/script.copacetic.helper
+	branch = nexus
+[submodule "nexus/script.copacetic.helper"]
+	path = nexus/script.copacetic.helper
 	url = https://github.com/realcopacetic/script.copacetic.helper
 	branch = main
-[submodule "repo/resource.fonts.copacetic"]
-	path = repo/resource.fonts.copacetic
+[submodule "nexus/resource.fonts.copacetic"]
+	path = nexus/resource.fonts.copacetic
 	url = https://github.com/realcopacetic/resource.fonts.copacetic
+	branch = master
+[submodule "omega/skin.copacetic"]
+	path = omega/skin.copacetic
+	url = https://github.com/realcopacetic/skin.copacetic
+	branch = omega
+[submodule "omega/script.copacetic.helper"]
+	path = omega/script.copacetic.helper
+	url = https://github.com/realcopacetic/script.copacetic.helper
+	branch = main
+[submodule "omega/resource.fonts.copacetic"]
+	path = omega/resource.fonts.copacetic
+	url = https://github.com/realcopacetic/resource.fonts.copacetic
+	branch = master
