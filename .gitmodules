@@ -13,7 +13,7 @@
 [submodule "omega/skin.copacetic"]
 	path = omega/skin.copacetic
 	url = https://github.com/realcopacetic/skin.copacetic
-	branch = omega
+	branch = master
 [submodule "omega/script.copacetic.helper"]
 	path = omega/script.copacetic.helper
 	url = https://github.com/realcopacetic/script.copacetic.helper
