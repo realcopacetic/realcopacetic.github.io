@@ -14,7 +14,7 @@
         <summary lang="en_GB">Combined Inter and Noto Sans CJK fonts</summary>
         <description lang="en_GB">Additional charactersets for use with the skin Copacetic including CJK.</description>
     </extension>
-</addon><addon id="script.copacetic.helper" name="Copacetic Helper" version="1.1.12" provider-name="realcopacetic">
+</addon><addon id="script.copacetic.helper" name="Copacetic Helper" version="1.1.13" provider-name="realcopacetic">
   <requires>
     <import addon="xbmc.python" version="3.0.1" />
     <import addon="script.module.pil" version="5.1.0" />
